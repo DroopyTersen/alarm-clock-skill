@@ -1,0 +1,20 @@
+{
+  "name": "alexa-o365",
+  "version": "1.0.0",
+  "description": "Amazon Echo Skill Service to Read and Write Outlook Calendar Events",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Skyline Technologies",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "body-parser": "^1.15.2",
+    "droopy-iot": "^2.1.4",
+    "express": "^4.14.0",
+    "moment": "^2.16.0",
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.3",
+    "utterance-builder-gui": "^1.0.0"
+  }
+}
