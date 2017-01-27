@@ -17,7 +17,9 @@ intent.handler = function(request, response) {
         if (days && days.length) {
             resp.say(dayToSpeech(days[0])).send();
         }
-    })
+    }).catch(err => {
+        console.log(err);
+    });
     return false;
 };
 
